@@ -183,3 +183,16 @@ curl -I https://lab5.webpentesting/    # → 200 SSL ✅
 curl -I http://lab5-2.webpentesting/   # → 200 Background ✅
 curl -I http://lab5-3.webpentesting/   # → 200 Hardened ✅
 ```
+
+---
+
+## 🎨 **Environment Status**
+```
+| Site | Protocol | Security | Status |
+|------|----------|----------|--------|
+| **Main** | HTTP→HTTPS | Basic | 🟢 Live |
+| **Site 2** | HTTP | Basic | 🟡 Live |
+| **Hardened** | HTTP | 🔒 Full | 🔴 Live |
+
+```
+---
